@@ -1,0 +1,21 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Projeto todolist aula",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Veronica Braga",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  }
+}
